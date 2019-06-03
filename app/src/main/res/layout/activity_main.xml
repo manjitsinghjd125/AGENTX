@@ -1,0 +1,49 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="305dp"
+            android:layout_height="205dp"
+            android:background="@drawable/unnamed"
+            android:layout_gravity="center_horizontal"/>
+        <EditText
+            android:singleLine="true"
+            android:hint="User Id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/userid"/>
+
+        <EditText
+            android:hint="password"
+            android:singleLine="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:id="@+id/password"/>
+        <Button
+            android:hint="Sign in"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sign in"
+            android:onClick="login"
+            android:id="@+id/login"
+            />
+
+        <Button
+            android:hint="Sign up"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="register"
+            android:text="Sign up"
+
+            android:id="@+id/logup"
+            />
+
+    </LinearLayout></ScrollView>

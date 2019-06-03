@@ -1,0 +1,97 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="225dp">
+            <ImageView
+                android:id="@+id/form_photo"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/agent1"
+                android:background="#00ABEC"/>
+
+            <Button
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:id="@+id/button_form_photo"
+                android:background="@android:drawable/ic_menu_camera"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="16dp"/>
+        </RelativeLayout>
+        <EditText
+            android:singleLine="true"
+            android:hint="Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/form_name"/>
+
+        <EditText
+            android:hint="Level"
+            android:singleLine="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:id="@+id/form_level"/>
+        <EditText
+            android:singleLine="true"
+            android:hint="Agency"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/form_agency"/>
+
+        <EditText
+            android:hint="Website"
+            android:singleLine="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:id="@+id/form_website"/>
+        <EditText
+            android:singleLine="true"
+            android:hint="Country"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/form_country"/>
+
+        <EditText
+            android:hint="Phone"
+            android:singleLine="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:id="@+id/form_phone"/>
+        <EditText
+            android:hint="Address"
+            android:singleLine="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:id="@+id/form_address"/>
+        <Button
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Agent"
+            android:onClick="save"
+            android:id="@+id/form_save"
+            />
+        <Button
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:onClick="back"
+            android:id="@+id/form_back"
+            />
+    </LinearLayout>
+
+
+</ScrollView>
+

@@ -1,0 +1,63 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="305dp"
+            android:layout_height="205dp"
+            android:background="@drawable/unnamed"
+            android:layout_gravity="center_horizontal"/>
+
+
+        <ImageButton
+            android:hint="Agent List"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="36dp"
+            android:layout_marginRight="36dp"
+            android:layout_marginBottom="20dp"
+            android:onClick="agentlist"
+            android:src="@drawable/agent1"
+            android:scaleType="fitCenter"
+
+
+            android:id="@+id/agentlist"
+            />
+        <ImageButton
+            android:hint="Add Agent"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginLeft="36dp"
+            android:layout_marginRight="36dp"
+            android:layout_marginBottom="20dp"
+            android:src="@drawable/agent0"
+            android:onClick="addagent"
+            android:scaleType="fitCenter"
+            android:id="@+id/addagent"
+            />
+        <ImageButton
+            android:hint="Search Agent"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginLeft="36dp"
+            android:layout_marginRight="36dp"
+            android:layout_marginBottom="20dp"
+            android:src="@drawable/agent2"
+            android:onClick="searchpage"
+            android:scaleType="fitCenter"
+            android:id="@+id/search"
+            />
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:text="Signout"
+            android:layout_gravity="center"
+            android:onClick="back"/>
+    </LinearLayout></ScrollView>
